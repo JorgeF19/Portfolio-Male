@@ -1,0 +1,335 @@
+#root {
+  max-width: 1280px;
+  margin: 0;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+@font-face {
+  font-family: "Jaini Purva";
+  src: url(font/jaini-purva-normal.ttf);
+}
+@font-face {
+  font-family: "jejuMyeongjo";
+  src: url(font/JejuMyeongjo-Regular.ttf);
+}
+
+#mainGrid {
+  display: grid;
+  grid-template-columns: 20vw 50vw 30vw;
+  grid-template-rows: 15vh 70vh 1fr;
+  grid-template-areas:
+    "bioTitle biography profile"
+    "bioTitle biography profile"
+    "bioTitle biography buttons";
+  min-height: 100vh;
+  width: 100vw;
+  position: relative;
+  gap: 1rem;
+}
+
+h1 {
+  margin: 0;
+}
+.title {
+  font-family: "Jaini Purva";
+
+  margin: 0;
+}
+#biographyTitleContainer {
+  grid-area: bioTitle;
+  writing-mode: vertical-lr;
+  display: flex;
+  justify-self: end;
+  height: 100vh;
+  width: 10rem;
+  font-size: 4rem;
+  text-transform: uppercase;
+  border-radius: 0;
+}
+.bio {
+  grid-area: biography;
+  grid-row: 2/3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#nameTitleContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  text-align: start;
+  align-items: start;
+  background-color: transparent;
+  backdrop-filter: none;
+  font-size: 1.5rem;
+}
+
+#biographyContainer {
+  max-width: 40vw;
+  background-color: rgba(0, 0, 0, 0.38);
+  border-radius: 10px;
+  position: relative;
+}
+
+#profileImageContainer {
+  grid-area: profile;
+  grid-row: 2/3;
+  width: fit-content;
+
+  align-self: center;
+  border-radius: 40px;
+}
+#arrowLink {
+  grid-area: buttons;
+  justify-self: center;
+}
+
+/* Styles second page */
+
+#firstProject {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50vh 50vh;
+  width: 100vw;
+}
+
+#firstProjectContainer {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 200px;
+  justify-content: start;
+  align-items: start;
+  justify-self: center;
+  align-self: center;
+  z-index: 999;
+  transition: all 0.3s ease-in-out;
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+
+#videoContainer {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  grid-column: 1/3;
+  grid-row: 1/3;
+}
+
+#resumeButton {
+  transition: all 0.3s ease-in-out;
+  position: fixed;
+  left: auto;
+  top: auto;
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  border-radius: 8px;
+  border: none;
+  background: #fff;
+  color: #222;
+  cursor: pointer;
+  z-index: 3;
+}
+#resumeButton:hover {
+  background-color: #535bf2;
+}
+#coverImage {
+  filter: blur(10px);
+  z-index: 0;
+}
+#pauseCoverContainer {
+  display: flex;
+  position: fixed;
+  left: 0;
+  top: 0;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+#linkContainer {
+  z-index: 1;
+  margin: 2rem;
+}
+
+@media (max-width: 1240px) {
+  #mainGrid {
+    grid-template-columns: 60vw 40vw;
+    grid-template-rows: auto auto;
+    grid-template-areas: "Biotitle Biotitle" "Biography profile" "biography buttons";
+  }
+  #biographyTitleContainer {
+    grid-area: bioTitle;
+    writing-mode: horizontal-tb;
+    justify-self: center;
+    height: fit-content;
+    width: 100%;
+    font-size: 3rem;
+    grid-column: 1/3;
+    grid-row: 1/2;
+  }
+  #nameTitleContainer {
+    text-align: center;
+    padding: 0;
+    width: 600px;
+    justify-self: center;
+  }
+  #biographyContainer {
+    max-width: 90vw;
+    grid-row: 2/3;
+    align-self: flex-start;
+  }
+  .bio {
+    grid-row: 2/4;
+    display: grid;
+    grid-column: 1/2;
+    grid-template-rows: auto 1fr;
+    padding-left: 2rem;
+  }
+  #profileImageContainer {
+    justify-self: center;
+  }
+  #arrowLink {
+    grid-row: 3/4;
+    align-self: center;
+    justify-self: center;
+  }
+}
+
+@media (max-width: 1000px) {
+  #mainGrid {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto auto;
+  }
+  #biographyTitleContainer {
+    writing-mode: horizontal-tb;
+    justify-self: center;
+    height: fit-content;
+    grid-column: 1/3;
+    font-size: 2rem;
+  }
+  #nameTitleContainer {
+    text-align: start;
+    padding: 0;
+    width: 400px;
+    justify-self: end;
+    grid-row: 1/2;
+  }
+  #biographyContainer {
+    justify-self: center;
+
+    max-width: 350px;
+    grid-row: 2/3;
+  }
+  .bio {
+    grid-row: 2/3;
+    display: grid;
+    grid-template-rows: auto auto;
+    padding: 0;
+  }
+  #profileImageContainer img {
+    height: 300px;
+  }
+  #profileImageContainer {
+    grid-column: 2/3;
+    justify-self: center;
+  }
+  #linkContainer {
+    display: flex;
+    grid-column: 1/3;
+    justify-items: center;
+    align-items: end;
+  }
+  #arrowLink {
+    justify-self: center;
+  }
+}
+
+@media (max-width: 850px) {
+  #mainGrid {
+    grid-template-columns: auto auto;
+  }
+  #biographyTitleContainer {
+    writing-mode: horizontal-tb;
+    justify-self: center;
+    height: fit-content;
+
+    font-size: 1.5rem;
+  }
+  #nameTitleContainer {
+    text-align: start;
+    padding: 1rem;
+    width: 100%;
+    justify-self: center;
+    align-self: flex-start;
+  }
+  #nameTitleContainer h1 {
+    font-size: 2.7rem;
+  }
+  #nameTitleContainer h2 {
+    font-size: 1.5rem;
+  }
+
+  .bio {
+    grid-row: 2/4;
+  }
+  #profileImageContainer img {
+    height: 300px;
+  }
+  #profileImageContainer {
+    position: relative;
+    align-self: end;
+    justify-self: center;
+    left: auto;
+  }
+  #backgroundImage {
+    height: 100%;
+  }
+
+  #firstProjectContainer {
+    grid-column: 1/3;
+  }
+}
+@media (max-width: 700px) {
+  #mainGrid {
+    grid-template-columns: 1fr;
+
+    grid-template-areas: "bioTitle" "biography" "buttons";
+  }
+  .bio {
+    grid-row: 3;
+  }
+  #biographyTitleContainer {
+    grid-column: 1;
+  }
+  #profileImageContainer {
+    grid-column: 1;
+  }
+  #biographyContainer {
+    grid-row: 3/4;
+  }
+}
+
+@media (max-width: 500px) {
+  #firstProjectContainer {
+    max-width: 80%;
+    margin: 0;
+    justify-self: center;
+    grid-column: 1/2;
+  }
+  #videoContainer {
+    max-width: 100%;
+  }
+  #firstProject {
+    grid-template-columns: 100%;
+  }
+  #arrowLink {
+    align-self: center;
+    justify-self: center;
+    grid-row: 4/5;
+  }
+}
