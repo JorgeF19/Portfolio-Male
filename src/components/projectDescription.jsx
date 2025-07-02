@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import DescriptionProjectComponent from "./DescriptionProject";
-import GalleryProjectTitle from "./GalleryProjectTitle";
+import DescriptionProjectComponent from "./DescriptionProject.jsx";
+import GalleryProjectTitle from "./GalleryProjectTitle.jsx";
 
 const ProjectDescription = styled.div`
   display: flex;

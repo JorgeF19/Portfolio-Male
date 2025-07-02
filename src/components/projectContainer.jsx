@@ -1,6 +1,6 @@
-import GalleryImageComponent from "./GalleryImage";
+import GalleryImageComponent from "./GalleryImage.jsx";
 import styled from "styled-components";
-import ProjectDescriptionComponent from "./ProjectDescription";
+import ProjectDescriptionComponent from "./ProjectDescription.jsx";
 
 const ProjectContainer = styled.div`
   margin-top: 5rem;
