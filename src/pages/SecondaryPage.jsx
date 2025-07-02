@@ -1,4 +1,4 @@
-import { Routes, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
 import { useState, useRef } from "react";
 import { motion } from "framer-motion";
@@ -7,8 +7,6 @@ import ContainerComponent from "../components/Container.jsx";
 import ParagraphComponent from "../components/Paragraph.jsx";
 import socialImg from "../img/social.png";
 import ArrowContainerComponent from "../components/ArrowContainer.jsx";
-import Gallery from "./Gallery.jsx";
-import App from "../App.jsx";
 
 function SecondaryPage() {
   const [paused, setPaused] = useState(true);

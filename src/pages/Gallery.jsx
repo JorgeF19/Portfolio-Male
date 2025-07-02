@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
 import ArrowContainerComponent from "../components/ArrowContainer.jsx";
 
-// import ProjectContainerComponent from "../components/ProjectContainer.jsx";
+import ProjectContainerComponent from "../components/ProjectContainer.jsx";
 import ProjectContainerVerticalComponent from "../components/ProjectContainerVertical.jsx";
 import { motion } from "framer-motion";
 import "../App.css";
@@ -60,12 +60,12 @@ function Gallery() {
           transition={{ diration: 0.5, ease: "easeInOut" }}
           viewport={{ once: true, amount: 0.5 }}
         >
-          {/* <ProjectContainerComponent
+          <ProjectContainerComponent
             src="src/img/6amProject.png"
             alt="6am Project"
             title="6:00 AM"
             description="Lorem ipsum dolor sit amet consectetur. Eleifend felis sagittis cras malesuada porta nec condimentum a diam. Tellus sed gravida turpis non odio commodo rutrum at."
-          ></ProjectContainerComponent> */}
+          ></ProjectContainerComponent>
         </motion.div>
 
         <motion.div
