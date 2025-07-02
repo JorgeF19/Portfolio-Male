@@ -166,7 +166,7 @@ function SecondaryPage() {
                 }}
               >
                 <BackgroundMainComponent
-                  src="src/img/Social.png"
+                  src="img/Social.png"
                   alt="Biography Background"
                 ></BackgroundMainComponent>
               </div>

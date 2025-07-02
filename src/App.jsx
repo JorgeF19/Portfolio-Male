@@ -41,7 +41,7 @@ function App() {
 
               <Container id="profileImageContainer">
                 <ProfileImageComponent
-                  src="src\img\profilePicture.jpg"
+                  src="img\profilePicture.jpg"
                   alt="Profile picture"
                 ></ProfileImageComponent>
               </Container>
@@ -66,7 +66,7 @@ function App() {
 
               <BackgroundMainComponent
                 id="backgroundImage"
-                src="./img/Social.png"
+                src="img\Social.png"
                 alt="Biography Background"
               ></BackgroundMainComponent>
             </main>

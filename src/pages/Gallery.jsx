@@ -61,7 +61,7 @@ function Gallery() {
           viewport={{ once: true, amount: 0.5 }}
         >
           <ProjectContainerComponent
-            src="src/img/6amProject.png"
+            src="img/6amProject.png"
             alt="6am Project"
             title="6:00 AM"
             description="Lorem ipsum dolor sit amet consectetur. Eleifend felis sagittis cras malesuada porta nec condimentum a diam. Tellus sed gravida turpis non odio commodo rutrum at."
@@ -75,7 +75,7 @@ function Gallery() {
           viewport={{ once: true, amount: 0.5 }}
         >
           <ProjectContainerVerticalComponent
-            src="src/img/hardTimes.png"
+            src="img/hardTimes.png"
             alt="Hard times project"
             title="HARD TIMES"
             description="Nisi consequat sint id reprehenderit est ex occaecat."
