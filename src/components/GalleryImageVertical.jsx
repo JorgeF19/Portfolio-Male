@@ -1,19 +1,15 @@
 import styled from "styled-components";
 import XIconComponent from "./XIcon.jsx";
 
+const VerticalImage = styled.img`
+  width: 320px;
+  height: 530px;
+  border-radius: 19px;
+`;
 const GalleryImageWrapper = styled.div`
   position: relative;
   display: inline-block;
-  height: fit-content;
 `;
-
-const GalleryImage = styled.img`
-  width: 35rem;
-  height: 20rem;
-  border-radius: 30px;
-  display: block;
-`;
-
 const CornerIcon = styled.div`
   position: absolute;
   ${({ position }) => {
@@ -32,10 +28,10 @@ const CornerIcon = styled.div`
   }}
 `;
 
-function GalleryImageComponent({ src, alt }) {
+function VerticalImageComponent({ src, alt }) {
   return (
     <GalleryImageWrapper className="galleryImage">
-      <GalleryImage src={src} alt={alt} />
+      <VerticalImage src={src} alt={alt} />
       <CornerIcon position="top-left">
         <XIconComponent />
       </CornerIcon>
@@ -51,6 +47,5 @@ function GalleryImageComponent({ src, alt }) {
     </GalleryImageWrapper>
   );
 }
-
-export default GalleryImageComponent;
-//This component is used to create a styled image for the gallery with specific styles.
+export default VerticalImageComponent;
+// This component is used to create a styled vertical image for the gallery with specific styles.
