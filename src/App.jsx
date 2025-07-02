@@ -4,7 +4,7 @@ import SecondaryPage from "./pages/SecondaryPage.jsx";
 import Gallery from "./pages/Gallery.jsx";
 import BackgroundMainComponent from "./components/backgroundMain.jsx";
 import Container from "./components/container.jsx";
-import ParagraphComponent from "./components/paragraph.jsx";
+import ParagraphComponent from "src/components/paragraph.jsx";
 import ProfileImageComponent from "./components/profileImage.jsx";
 import ArrowContainerComponent from "./components/arrowContainer.jsx";
 import "./App.css";
