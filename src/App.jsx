@@ -66,7 +66,7 @@ function App() {
 
               <BackgroundMainComponent
                 id="backgroundImage"
-                src="src\img\Social.png"
+                src="src/img/Social.png"
                 alt="Biography Background"
               ></BackgroundMainComponent>
             </main>

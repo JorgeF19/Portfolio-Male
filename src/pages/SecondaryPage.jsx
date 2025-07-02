@@ -1,11 +1,10 @@
 import { Link } from "react-router-dom";
-import { AnimatePresence } from "framer-motion";
+import { AnimatePresence, motion } from "framer-motion";
 import { useState, useRef } from "react";
-import { motion } from "framer-motion";
 import YouTube from "react-youtube";
 import ContainerComponent from "../components/Container.jsx";
 import ParagraphComponent from "../components/Paragraph.jsx";
-import socialImg from "../img/social.png";
+import BackgroundMainComponent from "../components/BackgroundMain.jsx";
 import ArrowContainerComponent from "../components/ArrowContainer.jsx";
 
 function SecondaryPage() {
@@ -156,7 +155,7 @@ function SecondaryPage() {
                   left: 0,
                   width: "100%",
                   height: "100%",
-                  background: `rgba(0,0,0,0.8) url(${socialImg}) center/cover no-repeat`,
+
                   display: "flex",
                   alignItems: "center",
                   justifyContent: "center",
@@ -165,7 +164,12 @@ function SecondaryPage() {
 
                   transform: "scale(1.3)",
                 }}
-              ></div>
+              >
+                <BackgroundMainComponent
+                  src="src/img/Social.png"
+                  alt="Biography Background"
+                ></BackgroundMainComponent>
+              </div>
               <button id="resumeButton" onClick={handleResume}>
                 Play
               </button>
