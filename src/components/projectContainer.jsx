@@ -1,11 +1,10 @@
 import GalleryImageComponent from "./GalleryImage";
-
-import ProjectDescriptionComponent from "./ProjectDescription";
 import styled from "styled-components";
+import ProjectDescriptionComponent from "./ProjectDescription";
 
 const ProjectContainer = styled.div`
   margin-top: 5rem;
-  margin-margin: 5rem;
+  margin-bottom: 5rem;
   display: flex;
   justify-content: center;
 `;
