@@ -12,3 +12,4 @@ function GalleryProjectTitle({ children }) {
   return <ProjectTitle>{children}</ProjectTitle>;
 }
 export default GalleryProjectTitle;
+//asd
