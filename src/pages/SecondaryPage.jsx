@@ -7,7 +7,7 @@ import ContainerComponent from "../components/container.jsx";
 import ParagraphComponent from "../components/paragraph.jsx";
 import socialImg from "../img/social.png";
 import ArrowContainerComponent from "../components/arrowContainer.jsx";
-import Gallery from "./gallery.jsx";
+import Gallery from "./Gallery.jsx";
 import App from "../App.jsx";
 
 function SecondaryPage() {
