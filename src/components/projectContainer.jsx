@@ -1,4 +1,4 @@
-import GalleryImageComponent from "./GalleryImage";
+import GalleryImageComponent from "./galleryImage";
 
 import ProjectDescriptionComponent from "./projectDescription";
 import styled from "styled-components";

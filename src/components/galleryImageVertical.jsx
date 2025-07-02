@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import XIconComponent from "./XIcon";
+import XIconComponent from "./xIcon";
 
 const VerticalImage = styled.img`
   width: 320px;

@@ -4,9 +4,9 @@ import { useState, useRef } from "react";
 import { motion } from "framer-motion";
 import YouTube from "react-youtube";
 import ContainerComponent from "../components/container.jsx";
-import ParagraphComponent from "../components/Paragraph.jsx";
+import ParagraphComponent from "../components/paragraph.jsx";
 import socialImg from "../img/social.png";
-import ArrowContainerComponent from "../components/ArrowContainer.jsx";
+import ArrowContainerComponent from "../components/arrowContainer.jsx";
 import Gallery from "./gallery.jsx";
 import App from "../App.jsx";
 

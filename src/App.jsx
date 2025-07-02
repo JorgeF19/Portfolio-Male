@@ -1,12 +1,12 @@
 import { Routes, Route, useLocation, Link } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
 import SecondaryPage from "./pages/SecondaryPage.jsx";
-import Gallery from "./pages/Gallery.jsx";
-import BackgrounMain from "./components/BackgroundMain.jsx";
+import Gallery from "./pages/gallery.jsx";
+import BackgrounMain from "./components/backgroundMain.jsx";
 import Container from "./components/container.jsx";
-import ParagraphComponent from "./components/Paragraph.jsx";
-import ProfileImageComponent from "./components/ProfileImage.jsx";
-import ArrowContainerComponent from "./components/ArrowContainer.jsx";
+import ParagraphComponent from "./components/paragraph.jsx";
+import ProfileImageComponent from "./components/profileImage.jsx";
+import ArrowContainerComponent from "./components/arrowContainer.jsx";
 import "./App.css";
 
 function App() {

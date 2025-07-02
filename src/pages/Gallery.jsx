@@ -1,7 +1,7 @@
 import { Routes, Route, Link } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
-import ArrowContainerComponent from "../components/ArrowContainer.jsx";
-import GalleryImageComponent from "../components/GalleryImage.jsx";
+import ArrowContainerComponent from "../components/arrowContainer.jsx";
+import GalleryImageComponent from "../components/galleryImage.jsx";
 import GalleryProjectTitle from "../components/galleryProjectTitle.jsx";
 import DescriptionProjectComponent from "../components/descriptionProject.jsx";
 import ProjectContainerComponent from "../components/projectContainer.jsx";
