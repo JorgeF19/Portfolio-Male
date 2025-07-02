@@ -1,6 +1,6 @@
-import VerticalImageComponent from "./galleryImageVertical";
+import VerticalImageComponent from "./GalleryImageVertical";
 import styled from "styled-components";
-import ProjectDescriptionComponent from "./projectDescription";
+import ProjectDescriptionComponent from "./ProjectDescription";
 
 const ProjectContainerVertical = styled.div`
   margin-top: 5rem;

@@ -3,10 +3,10 @@ import { AnimatePresence } from "framer-motion";
 import SecondaryPage from "./pages/SecondaryPage.jsx";
 import Gallery from "./pages/Gallery.jsx";
 import BackgroundMainComponent from "./components/BackgroundMain.jsx";
-import Container from "./components/container.jsx";
-import ParagraphComponent from "./components/paragraph.jsx";
-import ProfileImageComponent from "./components/profileImage.jsx";
-import ArrowContainerComponent from "./components/arrowContainer.jsx";
+import Container from "./components/Container.jsx";
+import ParagraphComponent from "./components/Paragraph.jsx";
+import ProfileImageComponent from "./components/ProfileImage.jsx";
+import ArrowContainerComponent from "./components/ArrowContainer.jsx";
 import "./App.css";
 
 function App() {

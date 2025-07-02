@@ -1,6 +1,6 @@
-import GalleryImageComponent from "./galleryImage";
+import GalleryImageComponent from "./GalleryImage";
 
-import ProjectDescriptionComponent from "./projectDescription";
+import ProjectDescriptionComponent from "./ProjectDescription";
 import styled from "styled-components";
 
 const ProjectContainer = styled.div`

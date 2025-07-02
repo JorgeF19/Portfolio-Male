@@ -3,10 +3,10 @@ import { AnimatePresence } from "framer-motion";
 import { useState, useRef } from "react";
 import { motion } from "framer-motion";
 import YouTube from "react-youtube";
-import ContainerComponent from "../components/container.jsx";
-import ParagraphComponent from "../components/paragraph.jsx";
+import ContainerComponent from "../components/Container.jsx";
+import ParagraphComponent from "../components/Paragraph.jsx";
 import socialImg from "../img/social.png";
-import ArrowContainerComponent from "../components/arrowContainer.jsx";
+import ArrowContainerComponent from "../components/ArrowContainer.jsx";
 import Gallery from "./Gallery.jsx";
 import App from "../App.jsx";
 
