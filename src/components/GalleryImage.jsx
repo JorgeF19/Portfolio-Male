@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import XIconComponent from "./xIcon";
+import XIconComponent from "./XIcon";
 
 const GalleryImageWrapper = styled.div`
   position: relative;

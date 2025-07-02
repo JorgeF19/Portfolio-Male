@@ -1,6 +1,6 @@
 import { Routes, Route, useLocation, Link } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
-import SecondaryPage from "./pages/SecondaryPage.jsx";
+import SecondaryPage from "./pages/secondaryPage.jsx";
 import Gallery from "./pages/gallery.jsx";
 import BackgrounMainComponent from "./components/backgroundMain.jsx";
 import Container from "./components/container.jsx";
