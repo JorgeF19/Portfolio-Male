@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 import "../App.css";
 
 function Gallery() {
-  const MotionContainer = motion(ProjectContainerVerticalComponent);
+  const MotionContainer = motion.create(ProjectContainerVerticalComponent);
   //   const location = useLocation();
   //   const [paused, setPaused] = useState(true);
   //   const playerRef = useRef(null);
