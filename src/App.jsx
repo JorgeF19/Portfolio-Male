@@ -2,7 +2,7 @@ import { Routes, Route, useLocation, Link } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
 import SecondaryPage from "./pages/SecondaryPage.jsx";
 import Gallery from "./pages/gallery.jsx";
-import BackgrounMain from "./components/backgroundMain.jsx";
+import BackgrounMainComponent from "./components/backgroundMain.jsx";
 import Container from "./components/container.jsx";
 import ParagraphComponent from "./components/paragraph.jsx";
 import ProfileImageComponent from "./components/profileImage.jsx";
@@ -64,11 +64,11 @@ function App() {
                 </ArrowContainerComponent>
               </Link>
 
-              <BackgrounMain
+              <BackgrounMainComponent
                 id="backgroundImage"
                 src="src\img\Social.png"
                 alt="Biography Background"
-              ></BackgrounMain>
+              ></BackgrounMainComponent>
             </main>
           }
         />
