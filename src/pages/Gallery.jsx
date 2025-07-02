@@ -1,4 +1,4 @@
-import { Routes, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
 import ArrowContainerComponent from "../components/arrowContainer.jsx";
 import GalleryImageComponent from "../components/galleryImage.jsx";
