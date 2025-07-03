@@ -27,7 +27,7 @@ function SecondaryPage() {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}
-        transition={{ type: "spring", stiffness: 80 }}
+        transition={{ type: "spring", stiffness: 40 }}
         style={{
           width: "100%",
 
@@ -128,7 +128,7 @@ function SecondaryPage() {
         </section>
         <div id="videoContainer" style={{ position: "relative" }}>
           <YouTube
-            videoId="KoB2cqmYZNg"
+            videoId="3kZU9JxapAo"
             id="videoContainer"
             opts={{
               width: "100%",

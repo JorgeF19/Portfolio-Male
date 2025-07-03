@@ -19,7 +19,7 @@ function Gallery() {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}
-        transition={{ type: "spring", stiffness: 80 }}
+        transition={{ type: "tween", stiffness: 40 }}
         style={{
           padding: "2rem",
           position: "relative",
