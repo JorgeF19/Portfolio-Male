@@ -151,7 +151,7 @@ h1 {
   height: 100%;
 }
 #linkContainer {
-  z-index: 1;
+  z-index: 999;
   margin: 2rem;
 }
 #galleryArrowContainer {
@@ -229,10 +229,12 @@ h1 {
     justify-self: center;
   }
 
-  .projectContainer {
+  .projectContainer,
+  .projectContainerV {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border-bottom: 1px solid #5c9cd4;
   }
 }
 
@@ -348,8 +350,16 @@ h1 {
     grid-row: 3/4;
   }
 
-  .galleryImage {
-    scale: 0.6;
+  .projectContainer a {
+    scale: 0.8;
+  }
+  .projectContainerV a {
+    scale: 0.9;
+  }
+  #arrowLink {
+    align-self: center;
+    justify-self: center;
+    grid-row: 4/5;
   }
 }
 
@@ -366,12 +376,14 @@ h1 {
   #firstProject {
     grid-template-columns: 100%;
   }
-  #arrowLink {
-    align-self: center;
-    justify-self: center;
-    grid-row: 4/5;
-  }
+
   #galleryArrowContainer {
     grid-column: 1/2;
+  }
+  .projectContainer a {
+    scale: 0.6;
+  }
+  .projectContainerV a {
+    scale: 0.8;
   }
 }

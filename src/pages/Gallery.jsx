@@ -58,13 +58,14 @@ function Gallery() {
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ diration: 0.5, ease: "easeInOut" }}
-          viewport={{ once: true, amount: 0.5 }}
+          viewport={{ once: true, amount: 0.3 }}
         >
           <ProjectContainerComponent
             src="img/6amProject.png"
             alt="6am Project"
             title="6:00 AM"
-            description="Lorem ipsum dolor sit amet consectetur. Eleifend felis sagittis cras malesuada porta nec condimentum a diam. Tellus sed gravida turpis non odio commodo rutrum at."
+            description="This is a look to my daily routine, what I do every day, every week, every month and i try to make it look as aesthetic as possible "
+            projectLink="https://www.instagram.com/reel/DKsdwOxOutF/?utm_source=ig_web_button_share_sheet&igsh=MzRlODBiNWFlZA=="
           ></ProjectContainerComponent>
         </motion.div>
 
@@ -72,13 +73,14 @@ function Gallery() {
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, ease: "easeInOut" }}
-          viewport={{ once: true, amount: 0.5 }}
+          viewport={{ once: true, amount: 0.3 }}
         >
           <ProjectContainerVerticalComponent
             src="img/hardTimes.png"
             alt="Hard times project"
             title="HARD TIMES"
-            description="Nisi consequat sint id reprehenderit est ex occaecat."
+            description="This time I try to desmotrate that is normal the fact that things sometimes (most of the time) don't go well, it's just a matter of be aware and consistent."
+            projectLink="https://www.instagram.com/reel/DKYCEOnAY2t/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
           ></ProjectContainerVerticalComponent>
         </motion.div>
       </motion.div>

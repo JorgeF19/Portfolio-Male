@@ -5,6 +5,20 @@ const VerticalImage = styled.img`
   width: 320px;
   height: 530px;
   border-radius: 19px;
+  transition: all 0.3s ease-in-out;
+`;
+const LinkImage = styled.a`
+  color: inherit;
+  transition: all 0.3s ease-in-out;
+  &:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+
+    &:hover img {
+      filter: brightness: (0.8);
+      box-shadow: -8px -8px 30px 1px #d11149, 8px 8px 30px 1px #3a015c;
+    }
+  }
 `;
 const GalleryImageWrapper = styled.div`
   position: relative;
@@ -28,23 +42,25 @@ const CornerIcon = styled.div`
   }}
 `;
 
-function VerticalImageComponent({ src, alt }) {
+function VerticalImageComponent({ src, alt, projectLink }) {
   return (
-    <GalleryImageWrapper className="galleryImage">
-      <VerticalImage src={src} alt={alt} />
-      <CornerIcon position="top-left">
-        <XIconComponent />
-      </CornerIcon>
-      <CornerIcon position="top-right">
-        <XIconComponent />
-      </CornerIcon>
-      <CornerIcon position="bottom-left">
-        <XIconComponent />
-      </CornerIcon>
-      <CornerIcon position="bottom-right">
-        <XIconComponent />
-      </CornerIcon>
-    </GalleryImageWrapper>
+    <LinkImage href={projectLink} target="_blank" rel="noopener noreferrer">
+      <GalleryImageWrapper className="galleryImage">
+        <VerticalImage src={src} alt={alt} />
+        <CornerIcon position="top-left">
+          <XIconComponent />
+        </CornerIcon>
+        <CornerIcon position="top-right">
+          <XIconComponent />
+        </CornerIcon>
+        <CornerIcon position="bottom-left">
+          <XIconComponent />
+        </CornerIcon>
+        <CornerIcon position="bottom-right">
+          <XIconComponent />
+        </CornerIcon>
+      </GalleryImageWrapper>
+    </LinkImage>
   );
 }
 export default VerticalImageComponent;

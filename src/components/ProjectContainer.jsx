@@ -9,10 +9,20 @@ const ProjectContainer = styled.div`
   justify-content: center;
 `;
 
-function ProjectContainerComponent({ src, alt, title, description }) {
+function ProjectContainerComponent({
+  src,
+  alt,
+  title,
+  description,
+  projectLink,
+}) {
   return (
     <ProjectContainer className="projectContainer">
-      <GalleryImageComponent src={src} alt={alt}></GalleryImageComponent>
+      <GalleryImageComponent
+        src={src}
+        alt={alt}
+        projectLink={projectLink}
+      ></GalleryImageComponent>
       <ProjectDescriptionComponent
         title={title}
         description={description}

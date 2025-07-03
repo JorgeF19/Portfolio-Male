@@ -8,14 +8,24 @@ const ProjectContainerVertical = styled.div`
   display: flex;
   justify-content: space-evenly;
 `;
-function ProjectContainerVerticalComponent({ src, alt, title, description }) {
+function ProjectContainerVerticalComponent({
+  src,
+  alt,
+  title,
+  description,
+  projectLink,
+}) {
   return (
-    <ProjectContainerVertical className="projectContainer">
+    <ProjectContainerVertical className="projectContainerV">
       <ProjectDescriptionComponent
         title={title}
         description={description}
       ></ProjectDescriptionComponent>
-      <VerticalImageComponent src={src} alt={alt}></VerticalImageComponent>
+      <VerticalImageComponent
+        src={src}
+        alt={alt}
+        projectLink={projectLink}
+      ></VerticalImageComponent>
     </ProjectContainerVertical>
   );
 }
