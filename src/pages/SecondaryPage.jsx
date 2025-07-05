@@ -44,7 +44,7 @@ function SecondaryPage() {
             exit={{ opacity: 0 }}
             transition={{ duration: 0.5 }}
             style={{
-              backgroundColor: "rgba(22, 5, 70, 0.4)",
+              backgroundColor: "rgba(70, 42, 5, 0.4)",
               borderRadius: "20px",
               flexShrink: "0",
               backdropFilter: "blur(6px)",
@@ -58,8 +58,8 @@ function SecondaryPage() {
           >
             <h1 className="title">First Project</h1>
             <ParagraphComponent className="projectDescription">
-              One of her first projects was one inspired in the series
-              “euphoria”, uploaded to her YouTube account in 2024.
+              One of her first projects was one about a couple that jokes each
+              other, messing around and having fun.
             </ParagraphComponent>
           </motion.div>
 
@@ -128,12 +128,12 @@ function SecondaryPage() {
         </section>
         <div id="videoContainer" style={{ position: "relative" }}>
           <YouTube
-            videoId="3kZU9JxapAo"
+            videoId="9JA_k8NIy84"
             id="videoContainer"
             opts={{
               width: "100%",
               height: "100%",
-              playerVars: { autoplay: 0 },
+              playerVars: { autoplay: 1 },
             }}
             onPause={onPause}
             onPlay={onPlay}
@@ -166,7 +166,7 @@ function SecondaryPage() {
                 }}
               >
                 <BackgroundMainComponent
-                  src="img/Social.png"
+                  src="img/pequennosJuegos.jpg"
                   alt="Biography Background"
                 ></BackgroundMainComponent>
               </div>
