@@ -366,6 +366,13 @@ h1 {
 }
 
 @media (max-width: 500px) {
+  .bio {
+    scale: 0.9;
+  }
+  #arrowLink {
+    margin-bottom: 2rem;
+  }
+
   #firstProjectContainer {
     max-width: 80%;
     margin: 0;

@@ -83,6 +83,49 @@ function Gallery() {
             projectLink="https://www.instagram.com/reel/DKYCEOnAY2t/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
           ></ProjectContainerVerticalComponent>
         </motion.div>
+        <motion.div
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5, ease: "easeInOut" }}
+          viewport={{ once: true, amount: 0.3 }}
+        >
+          <ProjectContainerComponent
+            src="img/portadaOjos.png"
+            alt="Conversacion de los ojos"
+            title="Conversacion de los Ojos"
+            description="I’m proud of how it turned out. This is an audio of @faridieck @axelyastro felt inspired by it.
+            Thanks to all the people that made this video posible"
+            projectLink="https://www.instagram.com/reel/DIH5nYyA_TY/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+          ></ProjectContainerComponent>
+        </motion.div>
+        <motion.div
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5, ease: "easeInOut" }}
+          viewport={{ once: true, amount: 0.3 }}
+        >
+          <ProjectContainerVerticalComponent
+            src="img/strangerThingsProject.png"
+            alt="Stranger Things adaptation"
+            title="Stranger Things Adaptation"
+            description="Recreated this scene from stranger things whit with my friends from college. I was in charge of editing the video and making the sound design."
+            projectLink="https://www.instagram.com/reel/DEveL22vJT0/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+          ></ProjectContainerVerticalComponent>
+        </motion.div>
+        <motion.div
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5, ease: "easeInOut" }}
+          viewport={{ once: true, amount: 0.3 }}
+        >
+          <ProjectContainerComponent
+            src="img/socialProject.jpg"
+            alt="Social Project"
+            title="SOCIAL"
+            description="Emely arrives to a party a little bit lost and new to this environment, she receives a drug at the entrance and takes it, suddenly she starts to forget about her problems and blends with the vibe around her. "
+            projectLink="https://www.youtube.com/watch?v=duBSmW8PTj0"
+          ></ProjectContainerComponent>
+        </motion.div>
       </motion.div>
     </AnimatePresence>
   );
