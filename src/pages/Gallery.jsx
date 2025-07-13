@@ -89,14 +89,14 @@ function Gallery() {
           transition={{ duration: 0.5, ease: "easeInOut" }}
           viewport={{ once: true, amount: 0.3 }}
         >
-          <ProjectContainerComponent
-            src="img/portadaOjos.png"
+          <ProjectContainerVerticalComponent
+            src="img/ojosProject.jpg"
             alt="Conversacion de los ojos"
             title="Conversacion de los Ojos"
             description="I’m proud of how it turned out. This is an audio of @faridieck @axelyastro felt inspired by it.
             Thanks to all the people that made this video posible"
             projectLink="https://www.instagram.com/reel/DIH5nYyA_TY/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
-          ></ProjectContainerComponent>
+          ></ProjectContainerVerticalComponent>
         </motion.div>
         <motion.div
           initial={{ opacity: 0, y: 50 }}
