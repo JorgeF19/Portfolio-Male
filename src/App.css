@@ -134,7 +134,7 @@ h1 {
   z-index: 3;
 }
 #resumeButton:hover {
-  background-color: #f29353;
+  background-color: #236db3;
 }
 #coverImage {
   filter: blur(10px);

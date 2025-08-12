@@ -44,7 +44,7 @@ function SecondaryPage() {
             exit={{ opacity: 0 }}
             transition={{ duration: 0.5 }}
             style={{
-              backgroundColor: "rgba(70, 42, 5, 0.4)",
+              backgroundColor: "rgba(47, 40, 138, 0.4)",
               borderRadius: "20px",
               flexShrink: "0",
               backdropFilter: "blur(6px)",
@@ -58,8 +58,9 @@ function SecondaryPage() {
           >
             <h1 className="title">First Project</h1>
             <ParagraphComponent className="projectDescription">
-              One of her first projects was one about a couple that jokes each
-              other, messing around and having fun.
+              This short takes place in our world, where they main character
+              faces a person similar to herself, and tries to understand what is
+              going on.
             </ParagraphComponent>
           </motion.div>
 
@@ -128,7 +129,7 @@ function SecondaryPage() {
         </section>
         <div id="videoContainer" style={{ position: "relative" }}>
           <YouTube
-            videoId="9JA_k8NIy84"
+            videoId="RYqlap4IXjc"
             id="videoContainer"
             opts={{
               width: "100%",
@@ -166,7 +167,7 @@ function SecondaryPage() {
                 }}
               >
                 <BackgroundMainComponent
-                  src="img/pequennosJuegos.jpg"
+                  src="img/Doppelganger.jpg"
                   alt="Biography Background"
                 ></BackgroundMainComponent>
               </div>

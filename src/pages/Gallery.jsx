@@ -89,6 +89,20 @@ function Gallery() {
           transition={{ duration: 0.5, ease: "easeInOut" }}
           viewport={{ once: true, amount: 0.3 }}
         >
+          <ProjectContainerComponent
+            src="img/socialProject.jpg"
+            alt="Social Project"
+            title="SOCIAL"
+            description="Emely arrives to a party a little bit lost and new to this environment, she receives a drug at the entrance and takes it, suddenly she starts to forget about her problems and blends with the vibe around her. "
+            projectLink="https://www.youtube.com/watch?v=duBSmW8PTj0"
+          ></ProjectContainerComponent>
+        </motion.div>
+        <motion.div
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5, ease: "easeInOut" }}
+          viewport={{ once: true, amount: 0.3 }}
+        >
           <ProjectContainerVerticalComponent
             src="img/ojosProject.jpg"
             alt="Conversacion de los ojos"
@@ -97,6 +111,20 @@ function Gallery() {
             Thanks to all the people that made this video posible"
             projectLink="https://www.instagram.com/reel/DIH5nYyA_TY/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
           ></ProjectContainerVerticalComponent>
+        </motion.div>
+        <motion.div
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5, ease: "easeInOut" }}
+          viewport={{ once: true, amount: 0.3 }}
+        >
+          <ProjectContainerComponent
+            src="img/IdeasInTheDark.png"
+            alt="Ideas in the dark"
+            title="Ideas in the Dark"
+            description="Just for the record this idea is not mine. I wanted to try it as well and I sure had fun playing and frozing programs. "
+            projectLink="https://www.youtube.com/watch?v=duBSmW8PTj0"
+          ></ProjectContainerComponent>
         </motion.div>
         <motion.div
           initial={{ opacity: 0, y: 50 }}
@@ -119,11 +147,12 @@ function Gallery() {
           viewport={{ once: true, amount: 0.3 }}
         >
           <ProjectContainerComponent
-            src="img/socialProject.jpg"
-            alt="Social Project"
-            title="SOCIAL"
-            description="Emely arrives to a party a little bit lost and new to this environment, she receives a drug at the entrance and takes it, suddenly she starts to forget about her problems and blends with the vibe around her. "
-            projectLink="https://www.youtube.com/watch?v=duBSmW8PTj0"
+            src="img/pequennosJuegos.jpg"
+            alt="Doppelganger"
+            title="Pequeños Juegos"
+            description="One of her first projects was one about a couple that jokes each
+              other, messing around and having fun."
+            projectLink="https://www.youtube.com/watch?v=9JA_k8NIy84"
           ></ProjectContainerComponent>
         </motion.div>
       </motion.div>
