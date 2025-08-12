@@ -155,6 +155,20 @@ function Gallery() {
             projectLink="https://www.youtube.com/watch?v=9JA_k8NIy84"
           ></ProjectContainerComponent>
         </motion.div>
+        <motion.div
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5, ease: "easeInOut" }}
+          viewport={{ once: true, amount: 0.3 }}
+        >
+          <ProjectContainerVerticalComponent
+            src="img/AS.jpg"
+            alt="AS"
+            title="AS"
+            description="This once upon a time was a viral trend and a few time ago I tried to recreated."
+            projectLink="https://www.instagram.com/reel/DCrknlcOFnP/?utm_source=ig_web_button_share_sheet&igsh=MzRlODBiNWFlZA=="
+          ></ProjectContainerVerticalComponent>
+        </motion.div>
       </motion.div>
     </AnimatePresence>
   );
